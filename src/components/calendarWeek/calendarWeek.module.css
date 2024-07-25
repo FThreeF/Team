@@ -1,0 +1,18 @@
+
+.calendarWeek{
+    display: flex;
+    gap: 4px;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(25, 25, 25, 30%);
+  }
+  
+  .green {
+    background-color: #05b093;
+  }

@@ -1,3 +1,4 @@
+import CalendarWeek from "../calendarWeek/CalenderWeek";
 import s from "./calendar.module.css";
 
 interface iCalendar {
@@ -16,52 +17,16 @@ const Calendar = (props: iCalendar) => {
         <div className={s.leftWrap}>
           <p className={s.month}>{props.month}</p>
           <div className={s.buttonContainer}>
-            <button className={s.button}>
-                <div className={s.inButton}></div>
-            </button>
-            <button className={s.button}>
-                <div className={s.inButton}></div>
-            </button>
-            
+            <button className={s.button} >&lt;</button>
+            <button className={s.button}>&gt;</button>
           </div>
         </div>
         <div className={s.rightWrap}>
-          <div className={s.block}>1</div>
-          <div className={`${s.block} ${s.green}`}>2</div>
-          <div className={s.block}>3</div>
-          <div className={s.block}>4</div>
-          <div className={`${s.block} ${s.green}`}>5</div>
-          <div className={s.block}>6</div>
-          <div className={`${s.block} ${s.green}`}>7</div>
-          <div className={s.block}>1</div>
-          <div className={`${s.block} ${s.green}`}>2</div>
-          <div className={s.block}>3</div>
-          <div className={s.block}>4</div>
-          <div className={`${s.block} ${s.green}`}>5</div>
-          <div className={s.block}>6</div>
-          <div className={`${s.block} ${s.green}`}>7</div>
-          <div className={s.block}>1</div>
-          <div className={`${s.block} ${s.green}`}>2</div>
-          <div className={s.block}>3</div>
-          <div className={s.block}>4</div>
-          <div className={`${s.block} ${s.green}`}>5</div>
-          <div className={s.block}>6</div>
-          <div className={`${s.block} ${s.green}`}>7</div>
-          <div className={s.block}>1</div>
-          <div className={`${s.block} ${s.green}`}>2</div>
-          <div className={s.block}>3</div>
-          <div className={s.block}>4</div>
-          <div className={`${s.block} ${s.green}`}>5</div>
-          <div className={s.block}>6</div>
-          <div className={`${s.block} ${s.green}`}>7</div>
-          <div className={s.block}>1</div>
-          <div className={`${s.block} ${s.green}`}>2</div>
-          <div className={s.block}>3</div>
-          <div className={s.block}>4</div>
-          <div className={`${s.block} ${s.green}`}>5</div>
-          <div className={s.block}>6</div>
-          <div className={`${s.block} ${s.green}`}>7</div>
-    
+          <CalendarWeek className={s.border}></CalendarWeek>
+          <CalendarWeek></CalendarWeek>
+          <CalendarWeek></CalendarWeek>
+          <CalendarWeek></CalendarWeek>
+          <CalendarWeek></CalendarWeek>
         </div>
       </div>
     </div>

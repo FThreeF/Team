@@ -8,11 +8,7 @@ import Calendar from './components/calendar/Calendar.tsx';
 const App = () => {
   return (
     <>
-      <Calendar image ="" name="test text" month='Февраль'></Calendar>
-      {/* <News image='' text="test test test test test test test test " description='test test test test test test test test  '></News>
-      <AnnouncementItem number='3' month="июня" text='test' ></AnnouncementItem>
-      <HeaderSection name = "Афиша"></HeaderSection>
-      <Order date = "12" month="fg,fld" img = "null" name = "test" description ="test des" music ="test mus" time = "19 00" age = "6+"/> */}
+      
     </>
   )
 }

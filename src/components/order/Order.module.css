@@ -1,6 +1,6 @@
 .order {
   display: flex;
-  background-color: rgb(25, 25, 25, 30%);
+  background-color: rgb(25, 25, 25, 5%);
   width: 1296px;
   height: 304px;
   gap: 62px;
@@ -21,7 +21,7 @@
   align-items: center;
   font-weight: 700;
   font-size: xx-large;
-  color: #1e1e1e;
+  color: rgb(25, 25, 25, 75%);
 }
 .month {
   width: 79px;
@@ -31,7 +31,7 @@
   align-items: center;
   font-weight: 700;
   font-size: xx-large;
-  color: #1e1e1e;
+  color: rgb(25, 25, 25, 75%);
 }
 .img {
   width: 320px;
@@ -39,14 +39,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 12px;
 }
-.block {
+.wrap {
+  display: flex;
+  flex-direction: column;
   width: 415px;
-  height: 200px;
+  max-height: 200px;
 }
 .name {
   display: flex;
-  /* border: 1px solid black; */
   justify-content: start;
   font-weight: 700;
   font-size: xx-large;
@@ -54,7 +56,6 @@
   padding: 0 0 16px 0;
 }
 .description {
-  /* border: 1px solid black; */
   padding: 16px 0 40px 0;
   color: rgb(25, 25, 25, 75%);
   font-weight: 400;

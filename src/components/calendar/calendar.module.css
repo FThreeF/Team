@@ -1,94 +1,76 @@
-
 .calendar {
-    width: 526px;
-    height: 564px;
-    /* border: 2px solid black; */
-    border-radius: 12px;
+  width: 526px;
+  height: 564px;
+  
 }
 .imageWrap {
-    position: relative;
-    width: 526px; /* Ширина контейнера */
-
-    /* border: 2px solid rgb(255, 0, 0); */
-    height: 300px;
-   
-   
+  position: relative;
+  width: 526px;
+  height: 300px;
 }
 .image {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 .name {
-    position: absolute;
-    width: 478px;
-    height: 45px;
-    bottom: 0;
-    font-size: 32px; 
-    font-weight: bold;  
-    margin: 24px;
-  
-
-    
+  position: absolute;
+  width: 478px;
+  height: 45px;
+  bottom: 0;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 24px;
 }
 .container {
-    width: 100%;
-    height: 264px;
-    display: flex;
-    gap: 24px;
-    background-color: rgb(25,25,25,5%) ;
+  width: 100%;
+  height: 264px;
+  display: flex;
+  gap: 24px;
+  background-color: rgb(25, 25, 25, 5%);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.leftWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 154px;
+  height: 216px;
 
+  flex-direction: column;
+  margin: 24px 0 24px 24px;
 }
-.leftWrap{
-    display: flex;
-    justify-content: space-between;
-    width: 154px;
-    height: 216px;
-  
-    flex-direction: column;
-    margin: 24px 0 24px 24px;
+.month {
+  font-size: 32px;
+  font-weight: bold;
 }
-.month{
-    font-size: 32px;
-    font-weight: bold;
+.buttonContainer {
+  display: flex;
+
+  bottom: 0;
+  gap: 8px;
 }
-.buttonContainer{
-    display: flex;
-  
-    bottom: 0;
-    gap: 8px;
+.button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  background-color: #05b093;
+  border-radius: 8px;
 }
-.button{
-    width: 48px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+
+.rightWrap {
+  width: 304px;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 24px;
 }
-.inButton{
-    width: 24px;
-    height: 24px;
-    
-    background-color: #05B093;
-}
-.rightWrap{
-    width: 304px;
-    height: 216px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 4px;
-    margin: 24px;
-}
-.block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(25,25,25,30%) ;
-}
-.green {
-    background-color: #05B093;
+.border {
+    border-radius: 4px;
 }
