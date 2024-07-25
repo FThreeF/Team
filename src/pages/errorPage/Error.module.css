@@ -1,0 +1,11 @@
+.error {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(25px, 4cqw, 45px);
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: sans-serif;
+}
