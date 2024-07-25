@@ -17,7 +17,7 @@ const Calendar = (props: iCalendar) => {
         <div className={s.leftWrap}>
           <p className={s.month}>{props.month}</p>
           <div className={s.buttonContainer}>
-            <button className={s.button} >&lt;</button>
+            <button className={s.button}>&lt;</button>
             <button className={s.button}>&gt;</button>
           </div>
         </div>
