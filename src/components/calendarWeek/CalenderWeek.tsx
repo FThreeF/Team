@@ -1,7 +1,7 @@
 import s from "./calendarWeek.module.css"
 
 
-const CalendarWeek = (props) => {
+const CalendarWeek = (props:any) => {
   return (
     <div className={s.calendarWeek}>
       <div className={`${s.block} ${props.className}`}>1</div>
