@@ -1,9 +1,9 @@
-import s from "./header.module.css"
+import s from "./Header.module.css"
 
 const Header = () => {
     return(
         <div className={s.header}>
-            <div className={s.wrapper}>
+            <div className={`${s.container} container`}>
                 <h1 className={s.title}>САЙТ КОНЦЕРТНО-ЭКСКУРСИОННЫХ ПРОГРАММ</h1>
                 <nav className={s.menu}>
                     <ul className={s.list}>

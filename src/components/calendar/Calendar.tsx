@@ -23,10 +23,10 @@ const Calendar = (props: iCalendar) => {
         </div>
         <div className={s.rightWrap}>
           <CalendarWeek className={s.border}></CalendarWeek>
-          <CalendarWeek></CalendarWeek>
-          <CalendarWeek></CalendarWeek>
-          <CalendarWeek></CalendarWeek>
-          <CalendarWeek></CalendarWeek>
+          <CalendarWeek/>
+          <CalendarWeek/>
+          <CalendarWeek/>
+          <CalendarWeek/>
         </div>
       </div>
     </div>

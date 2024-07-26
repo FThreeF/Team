@@ -2,27 +2,33 @@
     width: 100%;
     background-color: #191919;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100px;
 }
 .title{
     font-size: 16px;
 }
-.wrapper {
-    width: 1296px;
+
+.container {
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid white; */
-    margin: 32px;
-}
-.menu {
-    display: flex;
-    justify-content: center;
+    height: 100%;
     align-items: center;
 }
+
+
 .list {
-    border: 2px solid white;
-    display: flex;
-    
+    display: flex;  
+    gap: 40px;  
+}
+
+.item {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item:not(.item:last-child):before {
+    content: url(./romb.svg);
+    position: absolute;
+    right: -20px;
 }

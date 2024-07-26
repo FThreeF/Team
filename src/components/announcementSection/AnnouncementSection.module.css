@@ -1,0 +1,9 @@
+.announcementSection {
+    margin-top: 160px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
