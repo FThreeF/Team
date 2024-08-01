@@ -20,6 +20,7 @@
 .text {
     font-size: 24px;
     font-weight: 700;
+    margin: 26px 0 16px 0;
 }
 .description {
     color: rgb(25, 25, 25,75%);

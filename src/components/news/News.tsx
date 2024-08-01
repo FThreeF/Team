@@ -1,4 +1,4 @@
-import s from "./news.module.css"
+import s from "./News.module.css"
 interface INews {
 image:any;
 text:string;

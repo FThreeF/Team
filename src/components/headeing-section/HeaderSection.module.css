@@ -1,9 +1,12 @@
 .headerSection {
-    max-width: 1296px;
+}
+
+.container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 0 100px 0;
 }
+
 .headerSectionTitle{
     display: flex;
     justify-content: center;
