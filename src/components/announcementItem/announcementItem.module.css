@@ -2,9 +2,9 @@
     max-width: 306px;
     height: 98px;
     display: flex;
-    gap: 27px;
-  
+    gap: 27px; 
 }
+
 .date {
     width: 100px;
     display: flex;
@@ -14,15 +14,17 @@
     background-color: #05B093;
     border-radius: 12px;
     color: white;
-
 }
+
 .dateNumber {
     height: 45px;
     font-size: 32px;
 }
+
 .dateMonth {
     font-size: 18px;
 }
+
 .text {
     display: flex;
     justify-content: center;

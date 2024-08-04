@@ -1,13 +1,16 @@
 import s from './HeaderSection.module.css';
-import titleSectionImage from './image/titleSectionImage.svg';
+import image from './image/headingSection__icon.svg';
 
-const HeaderSection = ({ name }: { name: string }) => {
+interface IHeaderSection {
+	name: string;
+}
+const HeaderSection = (props: IHeaderSection) => {
 	return (
 		<div className={s.headerSection}>
 			<div className={`${s.container} container`}>
-				<h4 className={s.headerSectionTitle}>{name}</h4>
+				<h4 className={s.headerSectionTitle}>{props.name}</h4>
 				<div className={s.headerSectionRight}>
-					<img src={titleSectionImage} alt='' className={s.headerSectionIcon} />
+					<img src={image} alt='' className={s.headerSectionIcon} />
 					<p className={s.headerSectionText}>Все мероприятия</p>
 				</div>
 			</div>

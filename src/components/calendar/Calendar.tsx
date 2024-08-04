@@ -6,16 +6,17 @@ interface iCalendar {
   name: string;
   month: string;
 }
-const Calendar = (props: iCalendar) => {
+
+const Calendar = ({image, name, month}: iCalendar) => {
   return (
     <div className={s.calendar}>
       <div className={s.imageWrap}>
-        <img className={s.image} src={props.image} alt="" />
-        <p className={s.name}>{props.name}</p>
+        <img className={s.image} src={image} alt="" />
+        <p className={s.name}>{name}</p>
       </div>
       <div className={s.container}>
         <div className={s.leftWrap}>
-          <p className={s.month}>{props.month}</p>
+          <p className={s.month}>{month}</p>
           <div className={s.buttonContainer}>
             <button className={s.button}>&lt;</button>
             <button className={s.button}>&gt;</button>

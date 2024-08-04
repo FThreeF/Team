@@ -1,12 +1,7 @@
-import s from './ContactsPage.module.css'
-
+import s from './ContactsPage.module.css';
 
 const ContactsPage = () => {
-  return (
-    <div className={s.contactsPage}>
-      ContactPage
-    </div>
-  )
-}
+	return <div className={s.contactsPage}>ContactPage</div>;
+};
 
-export default ContactsPage
+export default ContactsPage;

@@ -1,12 +1,7 @@
-import s from './EventsPage.module.css'
-
+import s from './EventsPage.module.css';
 
 const EventsPage = () => {
-  return (
-    <div className={s.eventsPage}>
-      EventsPage
-    </div>
-  )
-}
+	return <div className={s.eventsPage}>EventsPage</div>;
+};
 
-export default EventsPage
+export default EventsPage;

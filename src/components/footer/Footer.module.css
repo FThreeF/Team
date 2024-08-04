@@ -1,65 +1,62 @@
 .footer {
-  display: flex;
-  background-color: #191919;
-  min-height: 386px;
-  color: white;
-  padding: 60px 0 32px 0;
-}
-.container {
-
+	display: flex;
+	background-color: #191919;
+	min-height: 386px;
+	color: white;
+	padding: 60px 0 32px 0;
 }
 .contentWrap {
-  display: flex;
-  padding: 0 0 60px 0;
+	display: flex;
+	padding: 0 0 60px 0;
 }
 .title {
-   height: 40px;
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-  width: 330px;
-  font-size: 12px;
-  font-weight: 400;
-  margin: 0 110px 0 0;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 330px;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 0 110px 0 0;
 }
 .rightWrap {
-  display: flex;
+	display: flex;
 }
 .center {
-  display: flex;
-  flex-direction: column;
-  width: 440px;
-  gap: 32px;
-  font-size: 16px;
-  font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	width: 440px;
+	gap: 32px;
+	font-size: 16px;
+	font-weight: 400;
 }
 .end {
-  display: flex;
-  flex-direction: column;
-  width: 420px;
-  gap: 32px;
-  font-size: 16px;
-  font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	width: 420px;
+	gap: 32px;
+	font-size: 16px;
+	font-weight: 400;
 }
 .list {
-  display: flex;
-  gap: 24px;
+	display: flex;
+	gap: 24px;
 }
 .titleBlock {
-  font-size: 24px;
-  font-weight: bold;
+	font-size: 24px;
+	font-weight: bold;
 }
 .listEnd {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
 }
-.bottom{
-    width: 100%;
-    height: 86px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.5);
-    border-top: 2px solid rgba(255, 255, 255, 0.5);
+.bottom {
+	width: 100%;
+	height: 86px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.5);
+	border-top: 2px solid rgba(255, 255, 255, 0.5);
 }
