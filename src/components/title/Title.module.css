@@ -1,0 +1,23 @@
+.title {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	font-weight: 400;
+}
+.right {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+	justify-content: center;
+}
+.text {
+	font-size: 24px;
+	font-weight: 400;
+}

@@ -1,16 +1,18 @@
 import AnnouncementItem from '../../components/announcementItem/AnnouncementItem';
-import HeaderSection from '../titleSection/TitleSection';
+import Title from '../../components/title/Title';
 import s from './AnnouncementSection.module.css';
 
 const AnnouncementSection = () => {
 	return (
 		<section className={s.announcementSection}>
-			<HeaderSection name={'Краткие анонсы'} />
 			<div className={`${s.container} container`}>
-				<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
-				<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
-				<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
-				<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
+				<Title name={'Краткие анонсы'} />
+				<div className={s.group}>
+					<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
+					<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
+					<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
+					<AnnouncementItem number={'3'} month={'июня'} text={'«ВЕК имени СИНАТРЫ»'} />
+				</div>
 			</div>
 		</section>
 	);
