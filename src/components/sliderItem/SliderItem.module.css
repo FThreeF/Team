@@ -1,0 +1,20 @@
+.sliderItem{
+    display: flex;
+    width: 416px;
+    height: 104px;
+    border-radius: 8px;
+    gap: 24px;
+    background-color: rgb(25, 25, 25, 5%);
+    padding: 12px 16px ;
+}
+.image{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+
+}
+.sliderText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
