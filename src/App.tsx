@@ -1,35 +1,41 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './assets/styles/style.css';
+import './styles/style.css';
 import MainPage from './pages/mainPage/MainPage';
 import EventsPage from './pages/eventsPage/EventsPage';
 import ContactsPage from './pages/contactsPage/ContactsPage';
 import DetailsEventPage from './pages/detailsEventPage/DetailsEventPage';
 import Error from './pages/errorPage/Error';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <MainPage />,
-		errorElement: <Error />
+		errorElement: <Error />,
 	},
-  {
-    path: '/events',
-    element: <EventsPage />,
-  },
-  {
-    path: 'contacts',
-    element: <ContactsPage />,
-  },
-  {
-    path: 'detailsEvent',
-    element: <DetailsEventPage />,
-  },
+	{
+		path: '/events',
+		element: <EventsPage />,
+	},
+	{
+		path: '/contacts',
+		element: <ContactsPage />,
+	},
+	{
+		path: '/detailsEvent',
+		element: <DetailsEventPage />,
+	},
 ]);
 
 const App = () => {
 	return (
 		<>
-			<RouterProvider router={router} />
+			<Header />
+			<main className='main'>
+				<RouterProvider router={router} />
+			</main>
+			<Footer />
 		</>
 	);
 };

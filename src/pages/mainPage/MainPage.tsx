@@ -1,14 +1,12 @@
-import AnnouncementSection from '../../sections/announcementSection/AnnouncementSection';
-import HeaderSection from '../../sections/headeingSection/HaederSection';
-import Header from '../../components/header/Header';
-import NewsSection from '../../sections/newsSection/NewsSection';
 import s from './MainPage.module.css';
+import AnnouncementSection from '../../sections/announcementSection/AnnouncementSection';
+import NewsSection from '../../sections/newsSection/NewsSection';
+import TitleSection from '../../sections/titleSection/TitleSection';
 
 const MainPage = () => {
 	return (
 		<div className={s.mainPage}>
-			<Header />
-			<HeaderSection name={'Афиша'} />
+			<TitleSection name={'Афиша'} />
 			<NewsSection />
 			<AnnouncementSection />
 		</div>

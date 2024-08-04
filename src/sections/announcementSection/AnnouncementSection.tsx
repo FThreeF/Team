@@ -1,5 +1,5 @@
 import AnnouncementItem from '../../components/announcementItem/AnnouncementItem';
-import HeaderSection from '../headeingSection/HaederSection';
+import HeaderSection from '../titleSection/TitleSection';
 import s from './AnnouncementSection.module.css';
 
 const AnnouncementSection = () => {

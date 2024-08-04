@@ -1,9 +1,9 @@
 import Calendar from '../../components/calendar/Calendar';
 import News from '../../components/news/News';
 import s from './NewsSection.module.css';
-import newsImage1 from './newsImage1.png';
-import newsImage2 from './newsImage2.png';
-import calendarImage from './calendarImage.png';
+import newsImage1 from './image/newsImage1.png';
+import newsImage2 from './image/newsImage2.png';
+import calendarImage from './image/calendarImage.png';
 
 const NewsSection = () => {
 	return (

@@ -1,9 +1,9 @@
-import s from './HeaderSection.module.css';
+import s from './TitleSection.module.css';
 import titleSectionImage from './image/titleSectionImage.svg';
 
-const HeaderSection = ({ name }: { name: string }) => {
+const TitleSection = ({ name }: { name: string }) => {
 	return (
-		<div className={s.headerSection}>
+		<div className={s.titleSection}>
 			<div className={`${s.container} container`}>
 				<h4 className={s.headerSectionTitle}>{name}</h4>
 				<div className={s.headerSectionRight}>
@@ -14,4 +14,4 @@ const HeaderSection = ({ name }: { name: string }) => {
 		</div>
 	);
 };
-export default HeaderSection;
+export default TitleSection;
