@@ -1,5 +1,5 @@
-import Calendar from '../calendar/Calendar';
-import News from '../news/News';
+import Calendar from '../../components/calendar/Calendar';
+import News from '../../components/news/News';
 import s from './NewsSection.module.css';
 import newsImage1 from './newsImage1.png';
 import newsImage2 from './newsImage2.png';

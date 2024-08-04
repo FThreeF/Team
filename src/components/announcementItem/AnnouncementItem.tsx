@@ -1,4 +1,4 @@
-import s from "./announcementItem.module.css"
+import s from "./AnnouncementItem.module.css"
 interface IAnnouncementItem {
     number:string;
     month:string;

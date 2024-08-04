@@ -1,5 +1,5 @@
 import CalendarWeek from "../calendarWeek/CalenderWeek";
-import s from "./calendar.module.css";
+import s from "./Calendar.module.css";
 
 interface iCalendar {
   image: any;

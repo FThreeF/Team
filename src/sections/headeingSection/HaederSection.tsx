@@ -1,5 +1,5 @@
 import s from './HeaderSection.module.css';
-import image from './image/heading-section__icon.svg';
+import image from './image/headingSection__icon.svg';
 
 interface IHeaderSection {
 	name: string;

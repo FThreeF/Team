@@ -1,7 +1,7 @@
-import AnnouncementSection from '../../components/announcementSection/AnnouncementSection';
-import HeaderSection from '../../components/headeing-section/HaederSection';
+import AnnouncementSection from '../../sections/announcementSection/AnnouncementSection';
+import HeaderSection from '../../sections/headeingSection/HaederSection';
 import Header from '../../components/header/Header';
-import NewsSection from '../../components/newsSection/NewsSection';
+import NewsSection from '../../sections/newsSection/NewsSection';
 import s from './MainPage.module.css';
 
 const MainPage = () => {

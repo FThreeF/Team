@@ -1,4 +1,4 @@
-import s from "./calendarWeek.module.css"
+import s from "./CalendarWeek.module.css"
 
 
 const CalendarWeek = (props:any) => {
